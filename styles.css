@@ -26,6 +26,7 @@ video {
     height: 100%;
     background: #03a9f4;
     mix-blend-mode: overlay;
+    z-index: -1;
 }
 
 .container {
@@ -61,11 +62,11 @@ video {
     display: none;
 }
 
-
 h1 {
     font-size: 3em;
     color: #fff;
     margin-bottom: 3em;
+    text-align: center;
 }
 
 h2 {
@@ -80,17 +81,16 @@ h2 {
     text-align: center;
     margin-bottom: 1em;
     text-decoration: none;
-    background: rgba(3, 169, 244, .8);
-    
+    background: rgba(3, 169, 244, 0.8);
+    /* mix-blend-mode: overlay; */
     border-radius: 4px;
     color: #fff;
-    /* opacity: .9; */
-    box-shadow: 0 2.5rem 3.4rem rgba(10, 78, 235, 0.6)
+    box-shadow: 0 2.5em 3.4em rgba(10, 78, 235, 0.6)
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    box-shadow: 0 0.8em 2.4em 0 rgba(8, 114, 244, 0.6);
     transform: scale(1.03);
 }
 
