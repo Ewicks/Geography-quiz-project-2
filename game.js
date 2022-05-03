@@ -29,10 +29,10 @@ let questions = [
     },
     {
         question: "To the nearest billion, how large is the world's population?",
-        choice1: '20%',
-        choice2: '18%',
-        choice3: '7%',
-        choice4: '33%',
+        choice1: '20 billion',
+        choice2: '6 billion',
+        choice3: '13 billion',
+        choice4: '8 billion',
         answer: 3, 
     },
     {
@@ -45,3 +45,70 @@ let questions = [
     }
 ]
 
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 4
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions]
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', score)
+
+        return window.location.assign('/end.html')
+    }
+
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex] //keep track of what question we on
+    question.innerText = currentQuestion.question
+
+    choices.forEach(choice => {
+        const number = choice.dataset['number'] // save the dataset number to number so we know what choice we clicking on
+        choice.innerText = currentQuestion['choice' + number]
+    })
+
+    availableQuestions.splice(questionsIndex, 1) // gets rid of question. from start to finish
+
+    acceptingAnswers = true
+}
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target // this pin points which exact button was pressed 
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect' 
+        // if button pressed is correct toggle correct css with the green, if not toggle the incorrect css red color
+
+        if (classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply) // changes background color of button to red or blue
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply) // get's rid of colored background
+            getNewQuestion()
+
+        }, 1000) // The time the button stays green or red
+
+    })
+})
+
+incrementScore = num => {
+    score += num
+    scoreText.innerText = score
+}
+
+startGame()
