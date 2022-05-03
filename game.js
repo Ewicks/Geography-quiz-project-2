@@ -33,7 +33,7 @@ let questions = [
         choice2: '6 billion',
         choice3: '13 billion',
         choice4: '8 billion',
-        answer: 3, 
+        answer: 4, 
     },
     {
         question: 'What is the capital city of jamaica',
