@@ -15,3 +15,8 @@ body {
 .fa-home {
     color: #fff;
 }
+
+h5 {
+    font-size: 3em;
+    padding: .5em;
+}
