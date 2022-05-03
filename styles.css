@@ -81,15 +81,17 @@ h2 {
     margin-bottom: 1em;
     text-decoration: none;
     background: rgba(3, 169, 244, .8);
+    
     border-radius: 4px;
     color: #fff;
+    /* opacity: .9; */
     box-shadow: 0 2.5rem 3.4rem rgba(10, 78, 235, 0.6)
 }
 
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-    transform: scale(1);
+    transform: scale(1.03);
 }
 
 .fa-crown {
