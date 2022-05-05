@@ -34,7 +34,7 @@ body {
 h3 {
     justify-content: center;
     margin-bottom: 1em;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .correct {
@@ -53,12 +53,13 @@ h3 {
 
 .question-count {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     z-index: 999;
 }
 
 .hud-main-text {
     text-align: center;
+    font-size: 2em;
 }
 
 #progressBar {
