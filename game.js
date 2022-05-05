@@ -68,14 +68,14 @@ getNewQuestion = () => {
     
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex] //keep track of what question we on
-    question.innerText = currentQuestion.question
+    question.innerText = currentQuestion.question // gets the question from the array to display it for the user
 
     choices.forEach(choice => {
-        const number = choice.dataset['number'] // save the dataset number to number so we know what choice we clicking on
-        choice.innerText = currentQuestion['choice' + number]
+        const number = choice.dataset['number'] // save the dataset number to number so we know what choice user is clicking on
+        choice.innerText = currentQuestion['choice' + number] // displays question to each choice button
     })
 
-    availableQuestions.splice(questionsIndex, 1) // gets rid of question. from start to finish
+    availableQuestions.splice(questionsIndex, 1) // gets rid of question from list of available questions
 
     acceptingAnswers = true
 }
