@@ -48,17 +48,19 @@ h3 {
 /* Heads up Display */
 #hud {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .hud-item {
     padding: 1em;
+    display: flex;
+    align-items: center;
 }
 
 .hud-prefix {
     font-size: 2em;
+    margin-right: 1em;
 }
 
 .question-count {
