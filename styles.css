@@ -86,10 +86,9 @@ h2 {
     margin-bottom: 1em;
     text-decoration: none;
     background: rgba(3, 169, 244, 0.8);
-    /* mix-blend-mode: overlay; */
     border-radius: 4px;
     color: #fff;
-    box-shadow: 0 2.5em 3.4em rgba(10, 78, 235, 0.6)
+    box-shadow: 0 2.5em 3.4em rgba(10, 78, 235, 0.6);
 }
 
 .btn:hover {
@@ -145,7 +144,7 @@ input::placeholder {
 .fa-home {
     margin-left: .5em;
     font-size: 1em;
-    color: rgb(28,26,26)
+    color: rgb(28,26,26);
 }
 
 h4 {
