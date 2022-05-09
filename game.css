@@ -75,9 +75,9 @@ h3 {
 }
 
 #progressBar {
-    width: 7em;
+    width: 9em;
     height: 2em;
-    border: 0.3em solid rgb(27, 34, 249);
+    border: 0.5em solid rgb(27, 34, 249);
     border-radius: 50px;
     overflow: hidden;
 }
