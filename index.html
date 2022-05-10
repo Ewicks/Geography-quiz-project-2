@@ -16,7 +16,22 @@
             <h1>How much do you know about the world?</h1>
             <a href="game.html" class="btn">Play</a>
             <a href="highscores.html" id="highscores-btn" class="btn">Highscores<i class="fas fa-crown"></i></a>
+            <input type="checkbox" name="un-mute" id="un-mute">
+            <label for="un-mute" class="unmute">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg" title="Mute icon">
+            </label>
+            <label for="un-mute" class="mute">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg" title="Unmute/speaker icon">
+            </label>
         </div>
     </div>
+
+    <script>
+        var un_mute = document.getElementById('un-mute');
+
+        un_mute.onclick = function() {
+        alert('toggle player here');
+        };
+    </script>
 </body>
 </html>
