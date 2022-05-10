@@ -1,17 +1,21 @@
+document.addEventListener('DOMContentLoaded', init);
 
-let startingMinutes = 1;
-let time = startingMinutes * 60;
+function init() {
+        let p1 = document.querySelector('p[data-number]')
 
-const countdownEl = document.getElementById('countdown');
+        p1.addEventListener('click', play)
+}
 
+function play(ev) {
+        let p = ev.currentTarget;
+        ev.preventDefault();
 
-function updateCountdown() {
-        const minutes = Math.floor(time / 60);
-        let seconds = time % 60;
+        let fn = p.getAttribute('data-number');
+        let src = '/.media/' + fn + '.mp3';
+        console.log(src);
 
-        seconds = seconds < 10 ? '0' + seconds : seconds;
-
-        countdownEl.innerHTML = `${minutes}: ${seconds}`;
-        time--;
+        let audio = document.getElementById('a');
+        audio.src = src;
+        audio.play()
 
 }
