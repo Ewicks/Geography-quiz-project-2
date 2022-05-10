@@ -3,47 +3,19 @@ const choices = Array.from(document.querySelectorAll('.choice-text'))
 const progressText = document.querySelector('#progressText')
 const scoreText = document.querySelector('#score')
 const progressBarFull = document.querySelector('#progressBarFull')
+const countdownEl = document.getElementById('countdown');
 
+let startingMinutes = 1;
+let time = startingMinutes * 60;
+let minutes;
+let seconds;
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
+let countdownInterval;
 
-let questions = [
-    {
-        question: 'what is the smallest country in the world?',
-        choice1: 'Seychelles',
-        choice2: 'Vatican City',
-        choice3: 'Monaco',
-        choice4: 'Maldives',
-        answer: 2,
-    },
-    {
-        question: 'The tallest building in the world is located in which city?',
-        choice1: 'London',
-        choice2: 'Dubai',
-        choice3: 'Shanghai',
-        choice4: 'None of the above',
-        answer: 2,
-    },
-    {
-        question: "To the nearest billion, how large is the world's population?",
-        choice1: '20 billion',
-        choice2: '6 billion',
-        choice3: '13 billion',
-        choice4: '8 billion',
-        answer: 4, 
-    },
-    {
-        question: 'What is the capital city of jamaica',
-        choice1: 'Dublin',
-        choice2: 'Lisbon',
-        choice3: 'Kingston',
-        choice4: 'None of the above',
-        answer: 3,
-    }
-]
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
@@ -53,14 +25,17 @@ startGame = () => {
     score = 0
     availableQuestions = [...questions]
     getNewQuestion()
+    
 }
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('end.html')
     }
+    countdownInterval = setInterval(updateCountdown, 1000);
+
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
@@ -80,6 +55,27 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
+function updateCountdown() {
+    if (time > 0) {
+        minutes = Math.floor(time / 60);
+        seconds = time % 60;
+    
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+    
+        countdownEl.innerHTML = `${minutes}: ${seconds}`;
+        time--;
+    } else {
+        clearInterval(countdownInterval)
+        startingMinutes = 1;
+        time = startingMinutes * 60;
+
+        getNewQuestion()
+
+    }
+
+
+}
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return
@@ -96,6 +92,10 @@ choices.forEach(choice => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply) // changes background color of button to red or blue
+
+        clearInterval(countdownInterval)
+        startingMinutes = 1;
+        time = startingMinutes * 60;
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply) // get's rid of colored background
