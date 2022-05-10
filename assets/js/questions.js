@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 let questions = [
     {
         question: 'what is the smallest country in the world?',
@@ -31,4 +33,4 @@ let questions = [
         choice4: 'None of the above',
         answer: 3,
     }
-]
+];
