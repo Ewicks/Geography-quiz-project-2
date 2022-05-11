@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://kit.fontawesome.com/b2fe83387a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <video src="vid1.mp4" muted loop autoplay></video>
@@ -17,22 +19,33 @@
             <a href="game.html" class="btn">Play</a>
             <a href="highscores.html" id="highscores-btn" class="btn">Highscores<i class="fas fa-crown"></i></a>
             <input type="checkbox" name="un-mute" id="un-mute">
-            <label for="un-mute" class="unmute">
-                <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg" title="Mute icon">
+            <!-- <label for="un-mute" class="unmute">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Mute_Icon.svg" alt="Mute_Icon.svg"
+                    title="Mute icon">
             </label>
             <label for="un-mute" class="mute">
-                <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg" title="Unmute/speaker icon">
-            </label>
+                <img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg" alt="Speaker_Icon.svg"
+                    title="Unmute/speaker icon">
+            </label> -->
+            <img  src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png" onclick='toggleSound(this);' width=20% height=20%>
         </div>
     </div>
 
     <script>
         var un_mute = document.getElementById('un-mute');
 
-        un_mute.onclick = function() {
-        alert('toggle player here');
+        un_mute.onclick = function () {
+            alert('toggle player here');
         };
+
+        function toggleSound(img) {
+            img.src = img.src ==
+                "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png" ?
+                "https://cdn2.iconfinder.com/data/icons/picons-essentials/57/music_off-512.png" :
+                "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/500px-Speaker_Icon.svg.png";
+        }
     </script>
     <script src="test.js"></script>
 </body>
+
 </html>

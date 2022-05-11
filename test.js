@@ -1,21 +1,15 @@
-document.addEventListener('DOMContentLoaded', init);
 
-function init() {
-        let p1 = document.querySelector('p[data-number]')
+let sound;
 
-        p1.addEventListener('click', play)
+
+function preload() {
+  
+    // Initialize sound
+    sound = loadSound("correct.mp3");
 }
-
-function play(ev) {
-        let p = ev.currentTarget;
-        ev.preventDefault();
-
-        let fn = p.getAttribute('data-number');
-        let src = '/.media/' + fn + '.mp3';
-        console.log(src);
-
-        let audio = document.getElementById('a');
-        audio.src = src;
-        audio.play()
-
-}
+   
+function setup() {
+  
+    // Playing the preloaded sound
+    sound.play();
+} 

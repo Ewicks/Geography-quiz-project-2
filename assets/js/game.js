@@ -7,6 +7,9 @@ const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 const countdownEl = document.getElementById('countdown');
 
+
+
+
 let startingMinutes = 1;
 let time = startingMinutes * 60;
 
@@ -20,6 +23,7 @@ let countdownInterval;
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 4;
+
 
 startGame = () => {
     questionCounter = 0;
@@ -64,6 +68,7 @@ function updateCountdown() {
 
     countdownEl.innerHTML = `${minutes}: ${seconds}`;
     time--;
+    
 
 }
 
@@ -102,4 +107,5 @@ incrementScore = num => {
     scoreText.innerText = score;
 };
 
+sound.play();
 startGame();
