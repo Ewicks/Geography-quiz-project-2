@@ -27,7 +27,6 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-    
 };
 
 getNewQuestion = () => {

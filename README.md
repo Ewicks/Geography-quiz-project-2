@@ -22,23 +22,25 @@ intuitively designed to make it easy for the user to navigate.
 
 ![Home page](doc/screenshots/homepage.png)
 
-- __Life Expearience section__
+- __Game Page__
 
-  - This section contains a motivational story from someone who has had the Fitness
-  Culture expearience, the user will see someone's real life benefits from joining Fitness Culture which will encourage them to buy a membership.
+  - This page provides the the question, score, progress bar and four different choices to answer from. 
 
-  - An image is also used so you have visual proof as well as wriiten proof of
-  the journey which will help emphersize the value of joining the gym.
+  - Most of the elements on the page are centered on the page, so it's easy for the user to read.
 
-![Life Expearience](doc/screenshots/life-expearience.png)
+  - Your score will be updated every updated on every question
 
-- __Membership section__
+  - The user has 1 minute to click an answer, if no answer is clicked, it will automatically go to the next question.
+
+![Game page](doc/screenshots/gamepage.png)
+
+- __End Page__
 
   This section displays all 3 types of memberships that are offered. The prices vary a lot in order for everone viewing are able to buy one even if they have low incomes.
 
   - When the user hovers over a membership card, the card will display a shadow behind it, highlighting to the user which membership they are about to click.
 
-![Membership](doc/screenshots/membership.png)
+![End page](doc/screenshots/endpage.png)
 
 - __The Footer__ 
 
