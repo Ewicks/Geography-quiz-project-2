@@ -1,108 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Fitness Culture
 
-Welcome Ewicks,
+Do you want to improve your knowledge about the world you live on? If so then this is the place. Through a variety of different questions, you will be learn an abundance of information about the world through a fun interative quiz. Rather than read textbooks, I encourage user's to make their learining as fun as possbile. This motivated me to create this quiz.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website visuals](doc/screenshots/website-visuals.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Click this link to see deployed site - https://ewicks.github.io/Geography-quiz-project-2/
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+It's important that all pages are responsive on small, medium and large devices. Also that all pages are  
+intuitively designed to make it easy for the user to navigate.
 
-`python3 -m http.server`
+### Home Page Features
 
-A blue button should appear to click: _Make Public_,
+- __Home Page__
 
-Another blue button should appear to click: _Open Browser_.
+  - I have used a video for the background to give the user a more enjoyable and unique expearience, while playing the game there is a beautiful beach video in the background. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The background has a black gradient ontop of the image to create a larger contrast in color between the white colored headings and the background video. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+![Home page](doc/screenshots/homepage.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Life Expearience section__
 
-To log into the Heroku toolbelt CLI:
+  - This section contains a motivational story from someone who has had the Fitness
+  Culture expearience, the user will see someone's real life benefits from joining Fitness Culture which will encourage them to buy a membership.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - An image is also used so you have visual proof as well as wriiten proof of
+  the journey which will help emphersize the value of joining the gym.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Life Expearience](doc/screenshots/life-expearience.png)
 
-------
+- __Membership section__
 
-## Release History
+  This section displays all 3 types of memberships that are offered. The prices vary a lot in order for everone viewing are able to buy one even if they have low incomes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - When the user hovers over a membership card, the card will display a shadow behind it, highlighting to the user which membership they are about to click.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Membership](doc/screenshots/membership.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __The Footer__ 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The footer consits of three sections for medium and larger devices, a quick menu, a motivational quote and my socials.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The quick menu is there so that the user has easy access to all sections without having to scroll all the way up. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - The socials and quick menu have a black hover efftect to increase the user friendly navigation. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The socials will be opened in a new tab so they not directed away from the website entirely. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Footer](doc/screenshots/footer.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### About Us Page Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- __Meet-the-team section__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  - This section shows pictures of the trainers and a description of what they are like and why they love their job.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Meet the Team](doc/screenshots/meet-the-team.png)
 
-------
+- __Photo gallery section__ 
 
-## FAQ about the uptime script
+  - This page will encourage the user to visit and follow the gym's social media to help grow the brand. 
 
-**Why have you added this script?**
+  - It contains many pictures of people working hard and having fun. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Photo gallery](doc/screenshots/photo-gallery.png)
 
-**How will this affect me?**
+- __Location section__ 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  - This page contains where the gym is located on google maps giving a visual representation as well as a written representation.
+  Which will help the user pin point exactly where the gym is.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  - The opening times are clearly layed out, which is the rest of the important information the user needs to see about the location. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+![Location](doc/screenshots/location-section.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Features Left to Implement
 
-**Can I opt out?**
+- Gym facilites section, which gives a tour of the gym. And a bit about what they can expect.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+# Testing 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The link to the full testing page, which includes validator testing, brower compatibility and responive check [click here](TESTING.md). 
 
----
+### Validator Testing
 
-Happy coding!
+You can find all the screenshots of each page being passed thorugh the code validator [here](TESTING.md).
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://ewicks.github.io/Gym-Website-Milestone-Project-1/index.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fewicks.github.io%2FGym-Website-Milestone-Project-1)
+
+### Unfixed Bugs
+
+- I could not focus the image to the upper part of the image in the photo gallery.
+- The background-position property didn't work.
+
+![women-jogging](doc/screenshots/gallery-pic-bug.png)
+
+## Deployment
+
+I used GitHub pages to deploy this website. The steps are found below. 
+
+  - First, once your logged into your GitHub account, go to your repository tab.
+  - Click on the repository you are working in.
+  - Press the setting tab, then click pages tab on the left hand section.
+  - On the source section dropdown, select Master branch or Main branch. 
+  - Then click save.
+  - The page will automatically refresh when your site is successfully deployed.
+
+The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone-Project-1/
+
+![Git Pages deployed site](doc/screenshots/git-pages-guide.png)
+
+### Local Deployment
+
+## How to clone a project
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Ewicks/Gym-Website-Milestone-Project-1.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ewicks/Gym-Website-Milestone-Project-1)
+
+## How to fork a project
+
+- Click on the repository you want to fork
+- Press the button which say's fork in the top right of the screen
+
+# Credits 
+
+### Content and Media
+
+- I used the Love Running Project to guide me through my project. [here](https://ewicks.github.io/love-running/)
+
+- I used the design idea of creating a vertical line between each navbar element from the repository [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/index.html)
+
+- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY)
+
+- I used a youtube video to showcase the gym's facilities. Click this 
+[link](https://www.youtube.com/watch?v=vhVvMYJ9Hnc&t=103s)
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- Link to the google map [click here](https://www.google.com/maps/place/PureGym+London+Piccadilly/@51.512871,-0.123031,13z/data=!4m5!3m4!1s0x0:0x17999a4de3026a30!8m2!3d51.5084911!4d-0.133374?hl=en)
+
+
+
+- The below photos are from a website called [pexels](https://www.pexels.com/search/fitness/)
+
+![weight lifter](assets/images/man-lifting-weights.png)
+![girl jogging](assets/images/girl-jogging.png)
+![girl standing](assets/images/girl-standing.png)
+![girl squating](assets/images/girl-squat.png)
+![plank](assets/images/plank.png)
+![lat pull down](assets/images/lat-pulldown.jpeg)
+![man running](assets/images/man-running.png)
+![bicep curl](assets/images/man-bicep-curl.png)
+
+- I got the below images from the [this](https://www.surreysportspark.co.uk/gym-and-classes/meet-the-teams/personal-trainers/) website.
+
+![alice](assets/images/alice-pt.jpeg)
+![james](assets/images/james-pt.jpeg)
+![dan](assets/images/dan-pt.jpeg)
+
+
+- The below picure is from [this](https://www.msnbc.com/know-your-value/these-7-habits-can-save-your-heart-n971011)
+website.
+
+![treadmill](assets/images/treadmill.jpeg)
+
+- The below picure is from [this](https://unsplash.com/s/photos/gyms) website.
+
+![bicep curl](assets/images/bicep-curl.jpeg)
