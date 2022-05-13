@@ -59,12 +59,12 @@ getNewQuestion = () => {
 };
 
 function correctSoundEffect() {
-    const correctSound = new Audio("correct.mp3"); 
+    const correctSound = new Audio("assets/sound/correct.mp3"); 
     correctSound.play();
 };
 
 function incorrectSoundEffect() {
-    const incorrectSound = new Audio("incorrect.mp3"); 
+    const incorrectSound = new Audio("assets/sound/incorrect.mp3"); 
     incorrectSound.play();
 };
 
