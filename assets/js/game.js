@@ -21,7 +21,6 @@ let countdownInterval;
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 4;
 
-
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -56,6 +55,17 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 };
 
+function correctSoundEffect() {
+    var correctSound = new Audio("correct.mp3"); 
+    correctSound.play();
+};
+
+function incorrectSoundEffect() {
+    var incorrectSound = new Audio("incorrect.mp3"); 
+    incorrectSound.play();
+};
+
+
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
@@ -64,7 +74,6 @@ function updateCountdown() {
 
     countdownEl.innerHTML = `${minutes}: ${seconds}`;
     time--;
-    
 
 }
 
@@ -81,7 +90,10 @@ choices.forEach(choice => {
 
         if (classToApply === 'correct') {
             incrementScore(SCORE_POINTS);
-        }
+            correctSoundEffect();
+        } else {
+            incorrectSoundEffect();
+        };
 
         selectedChoice.parentElement.classList.add(classToApply); // changes background color of button to red or blue
 
