@@ -21,12 +21,15 @@ let countdownInterval;
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 4;
 
+
+
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
+
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
@@ -64,7 +67,6 @@ function incorrectSoundEffect() {
     var incorrectSound = new Audio("incorrect.mp3"); 
     incorrectSound.play();
 };
-
 
 function updateCountdown() {
     const minutes = Math.floor(time / 60);

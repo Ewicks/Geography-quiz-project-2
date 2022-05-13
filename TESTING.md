@@ -17,3 +17,5 @@
 To fix this I changed the overlay and video elements position's from absolute to fixed.
 
 ![White gap bug](doc/screenshots/gap-bug.png)
+
+
