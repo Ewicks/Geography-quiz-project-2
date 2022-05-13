@@ -42,53 +42,9 @@ intuitively designed to make it easy for the user to navigate.
 
 ![End page](doc/screenshots/endpage.png)
 
-- __The Footer__ 
-
-  - The footer consits of three sections for medium and larger devices, a quick menu, a motivational quote and my socials.
-
-  - The quick menu is there so that the user has easy access to all sections without having to scroll all the way up. 
-
-  - The socials and quick menu have a black hover efftect to increase the user friendly navigation. 
-
-  - The socials will be opened in a new tab so they not directed away from the website entirely. 
-
-![Footer](doc/screenshots/footer.png)
-
-
-### About Us Page Features
-
-- __Meet-the-team section__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-  - This section shows pictures of the trainers and a description of what they are like and why they love their job.
-
-![Meet the Team](doc/screenshots/meet-the-team.png)
-
-- __Photo gallery section__ 
-
-  - This page will encourage the user to visit and follow the gym's social media to help grow the brand. 
-
-  - It contains many pictures of people working hard and having fun. 
-
-![Photo gallery](doc/screenshots/photo-gallery.png)
-
-- __Location section__ 
-
-  - This page contains where the gym is located on google maps giving a visual representation as well as a written representation.
-  Which will help the user pin point exactly where the gym is.
-
-  - The opening times are clearly layed out, which is the rest of the important information the user needs to see about the location. 
-
-
-![Location](doc/screenshots/location-section.png)
-
 ### Features Left to Implement
 
-- Gym facilites section, which gives a tour of the gym. And a bit about what they can expect.
-
+- To create another quiz with an option on the homepage to choose from a logo quiz and a written question quiz to add more creativity and fun for the user.
 
 
 # Testing 
