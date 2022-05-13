@@ -4,9 +4,9 @@ function switchIt() {
     var image2 = document.getElementById("muted")
 
     if (box.checked) {
-        image1 = image2;
+        document.getElementById("muted").src = "assets/images/muted";
     } else {
-        image1 = image1;
+        image1 = true;
     }
 }
 
