@@ -1,11 +1,12 @@
 function switchIt() {
     var box = document.getElementById("check");
-    var image2 = document.getElementById("image2")
+    var image1 = document.getElementById("un-muted")
+    var image2 = document.getElementById("muted")
 
     if (box.checked) {
-        image2.checked = false;
+        image1 = image2;
     } else {
-        image2.checked = true;
+        image1 = image1;
     }
 }
 
