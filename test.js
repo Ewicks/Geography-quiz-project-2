@@ -1,14 +1,18 @@
-function switchIt() {
-    var box = document.getElementById("check");
-    var image1 = document.getElementById("un-muted")
-    var image2 = document.getElementById("muted")
+// let isPlaying = true;
+// let muteBtn = document.getElementById('un-muted');
+// let correctSound;
+// let incorrectSound;
 
-    if (box.checked) {
-        document.getElementById("muted").src = "assets/images/muted";
-    } else {
-        image1 = true;
-    }
-}
-
-setInterval(switchIt, 1000);
-
+// muteBtn.addEventListener('click', function(){
+//     if (isPlaying) {
+//         // pause the audio track
+//         muteBtn.src = "assets/images/muted.jpeg";
+//         isPlaying = false;
+//         incorrectSound.pause();
+//     } else {
+//         // play the track
+//         muteBtn.src = "assets/images/speaker.png";
+//         isPlaying = true;
+//         correctSound.pause();
+//     }
+// })
