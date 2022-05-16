@@ -70,7 +70,7 @@ You can find all the screenshots of each page being passed thorugh the code vali
 ### Unfixed Bugs
 
 - I could not focus the image to the upper part of the image in the photo gallery.
-- The background-position property didn't work.
+
 
 ![women-jogging](doc/screenshots/gallery-pic-bug.png)
 
