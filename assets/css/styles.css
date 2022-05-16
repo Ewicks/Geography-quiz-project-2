@@ -119,8 +119,8 @@ img {
 }
 
 input {
-    margin-bottom: 0.4em;
-    width: 15em;
+    /* margin-bottom: 0.4em;
+    width: 15em; */
     padding: 1em;
     font-size: 1em;
     border: none;
@@ -187,7 +187,6 @@ input#un-mute:checked~.mute img {
 
 /* Media Queries */
 
-/* Home Page */
 @Media only screen and (max-width: 500px) {
 
     /* Home Page */
@@ -198,9 +197,14 @@ input#un-mute:checked~.mute img {
 
     .btn {
         width: 8em;
+        font-size: 2em;
+    }
+
+    input {
+        padding: .5em;
     }
 
 }
 
-/* End Page*/
+
 
