@@ -183,3 +183,17 @@ input#un-mute:checked~.mute img {
     height: 50%;
     
 }
+
+@Media only screen and (max-width: 500px) {
+
+    /* Home Page */
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    .btn {
+        width: 9em;
+    }
+
+}
