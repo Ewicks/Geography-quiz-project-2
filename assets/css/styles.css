@@ -184,6 +184,10 @@ input#un-mute:checked~.mute img {
     
 }
 
+
+/* Media Queries */
+
+/* Home Page */
 @Media only screen and (max-width: 500px) {
 
     /* Home Page */
@@ -193,7 +197,10 @@ input#un-mute:checked~.mute img {
     }
 
     .btn {
-        width: 9em;
+        width: 8em;
     }
 
 }
+
+/* End Page*/
+

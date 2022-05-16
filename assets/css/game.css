@@ -91,3 +91,20 @@ h3 {
     font-size: 3em;
 }
 
+/* Media Queries */
+
+@Media only screen and (max-width: 800px) {
+
+    .choice-container {
+        min-width: unset;
+        font-size: 1em;
+    }
+
+    #question {
+        font-size: 1.5em;
+    }
+
+    #countdown {
+        font-size: 2em;
+    }
+}
