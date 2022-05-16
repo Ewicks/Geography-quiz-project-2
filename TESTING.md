@@ -35,7 +35,21 @@ To fix this I changed the overlay and video elements position's from absolute to
 
 ## Chrome
 
+I have found no compatibility issues using the chrome browser.
+
+- This is the home page in tablet mode
+
+![Home page](doc/screenshots/tablet-homepage.png)
+
+- This the game page in mobile mode
+
+![Game page](doc/screenshots/mobile-gamepage.png)
+
 ## Safari
+
+- When the user presses on the save button, the user is then directed to an error page.
+
+![Compatibility bug](doc/screenshots/compatibility-issue.png)
 
 
 ### Responsiveness
