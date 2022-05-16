@@ -2,6 +2,8 @@
 
 ## Home Page
 
+![Home Page]()
+
 ## Game Page
 
 ## End Game Page

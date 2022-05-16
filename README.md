@@ -62,9 +62,10 @@ The link to the full testing page, which includes validator testing, brower comp
 You can find all the screenshots of each page being passed thorugh the code validator [here](TESTING.md).
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https://ewicks.github.io/Gym-Website-Milestone-Project-1/index.html)
+  - No errors were returned when passing through the official [W3C validator](https://ewicks.github.io/Geography-quiz-project-2/index.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fewicks.github.io%2FGym-Website-Milestone-Project-1)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fewicks.github.io%2FGeography-quiz-project-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  
 
 ### Unfixed Bugs
 
