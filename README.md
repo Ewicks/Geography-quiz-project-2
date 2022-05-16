@@ -42,6 +42,12 @@ intuitively designed to make it easy for the user to navigate.
 
 ![End page](doc/screenshots/endpage.png)
 
+- __Highscores Page__
+
+- This page displays the users scores which will motivate them to do better the next time they play. This will keep our users keep coming back to the game giving it a sense of competitiveness. 
+
+![Highscores Page](doc/screenshots/highscorespage.png)
+
 ### Features Left to Implement
 
 - To create another quiz with an option on the homepage to choose from a logo quiz and a written question quiz to add more creativity and fun for the user.

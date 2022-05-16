@@ -103,6 +103,11 @@ h2 {
     margin-left: 0.5em;
 }
 
+img {
+    width: 20%;
+    height: 20%;
+}
+
 /* End Page CSS */
 
 .end-form-container {
