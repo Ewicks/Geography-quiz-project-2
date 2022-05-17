@@ -51,13 +51,30 @@ I have found no compatibility issues using the chrome browser.
 
 ![Compatibility bug](doc/screenshots/compatibility-issue.png)
 
+- This the highscores page in tablet mode
+
+![Highscores page](doc/screenshots/highscores-tablet.png)
 
 ### Responsiveness
 
 ## Desktop
 
+Here are two screenshots of the game page and end page in desktop mode.
+
+![Game page](doc/screenshots/desktop-gamepage.png)
+![End page](doc/screenshots/desktop-endpage.png)
+
 ## Tablet
+
+Here are two screenshots of the game page and end page in tablet mode.
+
+![Home page](doc/screenshots/tablet-homepage.png)
+
+![Highscores page](doc/screenshots/highscores-tablet.png)
 
 ## Mobile
 
+Here are two screenshots of the game page and end page in mobile mode.
 
+![Game page](doc/screenshots/mobile-gamepage.png)
+![End page](doc/screenshots/mobile-endpage.png)
