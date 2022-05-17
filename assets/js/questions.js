@@ -2,6 +2,14 @@
 
 let questions = [
     {
+        question: 'How many total islands does Hawaii have?',
+        choice1: '103',
+        choice2: '88',
+        choice3: '132',
+        choice4: '160',
+        answer: 3,
+    },
+    {
         question: 'what is the smallest country in the world?',
         choice1: 'Seychelles',
         choice2: 'Vatican City',
@@ -32,5 +40,14 @@ let questions = [
         choice3: 'Kingston',
         choice4: 'None of the above',
         answer: 3,
+    },
+    {
+        question: 'How many time zones does Russia have?',
+        choice1: '1',
+        choice2: '11',
+        choice3: '5',
+        choice4: '4',
+        answer: 2,
     }
+    
 ];
