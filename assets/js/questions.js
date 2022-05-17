@@ -48,6 +48,38 @@ let questions = [
         choice3: '5',
         choice4: '4',
         answer: 2,
+    },
+    {
+        question: 'Which country was named after Jesus?',
+        choice1: 'Columbia',
+        choice2: 'Honduras',
+        choice3: 'Costa Rica',
+        choice4: 'El Salvador',
+        answer: 4,
+    },
+    {
+        question: 'Which country has the longest coastline?',
+        choice1: 'Canada',
+        choice2: 'Australia',
+        choice3: 'China',
+        choice4: 'Russia',
+        answer: 1,
+    },
+    {
+        question: 'What shift at about the same rate as your fingernails grow?',
+        choice1: 'Planets',
+        choice2: 'Continents',
+        choice3: 'Moon',
+        choice4: 'Sun',
+        answer: 2,
+    },
+    {
+        question: 'What is the deepest ocean?',
+        choice1: 'Pacific',
+        choice2: 'Atlantic',
+        choice3: 'Indian',
+        choice4: 'Arctic',
+        answer: 2,
     }
     
 ];
