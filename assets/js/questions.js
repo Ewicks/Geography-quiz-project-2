@@ -26,7 +26,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "To the nearest billion, how large is the world's population?",
+        question: "Approximately how large is the world's population?",
         choice1: '20 billion',
         choice2: '6 billion',
         choice3: '13 billion',
