@@ -26,7 +26,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: "Approximately how large is the world's population?",
+        question: "How large is the world's population?",
         choice1: '20 billion',
         choice2: '6 billion',
         choice3: '13 billion',
@@ -66,7 +66,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'What shift at about the same rate as your fingernails grow?',
+        question: 'What shifts at the same pace as your fingernails grow?',
         choice1: 'Planets',
         choice2: 'Continents',
         choice3: 'Moon',

@@ -6,7 +6,6 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 const countdownEl = document.getElementById('countdown');
-// let isPlaying = sessionStorage.getItem("isPlaying");
 
 let startingMinutes = 1;
 let time = startingMinutes * 60;
@@ -20,7 +19,7 @@ let countdownInterval;
 
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 7;
 
 
 
