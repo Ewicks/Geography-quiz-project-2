@@ -8,7 +8,7 @@ const progressBarFull = document.querySelector('#progressBarFull');
 const countdownEl = document.getElementById('countdown');
 
 let startingMinutes = 1;
-let time = startingMinutes * 60;
+let time = startingMinutes * 30;
 let minutes, seconds;
 
 
@@ -98,7 +98,7 @@ function updateCountdown() {
 
     if (time <= 0) {
         clearInterval(countdownInterval)
-        time = startingMinutes * 60;
+        time = startingMinutes * 30;
 
         getNewQuestion()
     } else {
