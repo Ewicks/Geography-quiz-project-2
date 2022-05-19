@@ -9,7 +9,7 @@ const countdownEl = document.getElementById('countdown');
 
 let startingMinutes = 1;
 let time = startingMinutes * 30;
-let minutes, seconds;
+
 
 
 let currentQuestion = {};
