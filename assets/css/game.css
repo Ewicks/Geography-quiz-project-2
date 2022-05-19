@@ -8,7 +8,6 @@ body {
     width: 100%;
     border-radius: 4px;
     background: rgba(3, 169, 244, 0.8);
-    font-size: 1.5em;
     min-width: 30em;
     border: 2px solid #fff;
 }
@@ -52,7 +51,6 @@ h3 {
 }
 
 .hud-item {
-    padding: 1em;
     display: flex;
     align-items: center;
 }
