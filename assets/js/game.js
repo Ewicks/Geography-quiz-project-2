@@ -91,7 +91,6 @@ function incorrectSoundEffect() {
 
 }
 
-
 function updateCountdown() {
     minutes = Math.floor(time / 60);
     seconds = time % 60;
@@ -107,8 +106,6 @@ function updateCountdown() {
         countdownEl.innerHTML = `${minutes}: ${seconds}`;
         time--;
     }
-
-
 }
 
 choices.forEach(choice => {

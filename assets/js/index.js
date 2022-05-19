@@ -1,17 +1,7 @@
-// let incorrectSound;
-// let muteBtn = document.getElementById('un-muted');
-// let isPlaying = false;
-
-
-// muteBtn.addEventListener('click', function(){
-//     if (isPlaying) {
-//         // pause the audio track
-//         muteBtn.src = "assets/images/muted.jpeg";
-//         isPlaying = false;
-//         localStorage.setItem('mostRecentScore', score);
-//     } else {
-//         // play the track
-//         muteBtn.src = "assets/images/speaker.png";
-//         isPlaying = true;
-//     }
-// })
+document.addEventListener("DOMContentLoaded", function () {
+    // on page load, hide the preloader animation
+    document.getElementById("preloader").style.opacity = 0;
+    setTimeout(() => {
+        document.getElementById("preloader").remove();
+    }, 1000);
+});

@@ -12,6 +12,27 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+/* PRELOADER */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: #ccc;
+    transition: opacity 1s ease-in-out;
+}
+
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 video {
     position: fixed;
     top: 0;
@@ -103,11 +124,11 @@ h2 {
     margin-left: 0.5em;
 }
 
-img {
+#muted {
     width: 13%;
     justify-content: center;
     text-align: center;
-}
+} 
 
 #home-icon {
     color: #fff;
