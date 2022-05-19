@@ -9,6 +9,8 @@ const countdownEl = document.getElementById('countdown');
 
 let startingMinutes = 1;
 let time = startingMinutes * 60;
+let minutes, seconds;
+
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -16,6 +18,10 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 let countdownInterval;
+let incorrectSound;
+let correctSound;
+let muteBtn = document.getElementById('muted');
+let isPlaying = false;
 
 
 const SCORE_POINTS = 100;
@@ -30,6 +36,17 @@ startGame = () => {
     getNewQuestion();
 };
 
+muteBtn.addEventListener('click', function(){
+    if (isPlaying) {
+        // pause the audio track
+        muteBtn.src = "assets/images/muted.jpeg";
+        isPlaying = false;
+    } else {
+        // play the track
+        muteBtn.src = "assets/images/speaker.png";
+        isPlaying = true;
+    }
+});
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0) {
@@ -59,23 +76,38 @@ getNewQuestion = () => {
 };
 
 function correctSoundEffect() {
-    correctSound = new Audio("assets/sound/correct.mp3"); 
-    correctSound.play();
-};
+    if (isPlaying) {
+        correctSound = new Audio("assets/sound/correct.mp3"); 
+        correctSound.play();
+    }
+
+}
 
 function incorrectSoundEffect() {
-    incorrectSound = new Audio("assets/sound/incorrect.mp3"); 
-    incorrectSound.play();
-};
+    if (isPlaying) {
+        incorrectSound = new Audio("assets/sound/incorrect.mp3"); 
+        incorrectSound.play();
+    }
+
+}
+
 
 function updateCountdown() {
-    const minutes = Math.floor(time / 60);
-    let seconds = time % 60;
+    minutes = Math.floor(time / 60);
+    seconds = time % 60;
 
-    seconds = seconds < 10 ? '0' + seconds : seconds;
+    if (time <= 0) {
+        clearInterval(countdownInterval)
+        time = startingMinutes * 60;
 
-    countdownEl.innerHTML = `${minutes}: ${seconds}`;
-    time--;
+        getNewQuestion()
+    } else {
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        countdownEl.innerHTML = `${minutes}: ${seconds}`;
+        time--;
+    }
+
 
 }
 
