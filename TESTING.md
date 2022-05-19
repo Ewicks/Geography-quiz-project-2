@@ -31,6 +31,13 @@ To fix this I changed the overlay and video elements position's from absolute to
 
 ![Timer bug](doc/screenshots/timer-bug.png)
 
+- When the game page loads, there is currently no timer there. A second later the timer spawns in via the javascript. This then would shift all the elements down a bit during the gameplay. This disrupts the smoothness of the game. 
+
+- To fix this I wrote 0: 30 in the timer div as a place holder, so it has some text there when it loads which prevents the downwards shift.
+
+![Timer bug1](doc/screenshots/timer-bug1.png)
+![Timer bug2](doc/screenshots/timer-bug-2.png)
+
 ### Browser Compatibility
 
 ## Chrome
