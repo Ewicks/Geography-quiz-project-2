@@ -130,6 +130,8 @@ choices.forEach(choice => {
 
         selectedChoice.parentElement.classList.add(classToApply); // changes background color of button to red or blue
 
+        clearInterval(countdownInterval)
+        time = startingMinutes * 60;
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply); // get's rid of colored background
             getNewQuestion();
