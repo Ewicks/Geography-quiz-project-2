@@ -52,7 +52,7 @@ muteBtn.addEventListener('click', function(){
 });
 
 refreshPage.addEventListener('click', function(){
-    location.reload();
+    window.location.reload();
 });
 
 getNewQuestion = () => {
