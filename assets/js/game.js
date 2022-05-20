@@ -23,6 +23,7 @@ let incorrectSound;
 let correctSound;
 let muteBtn = document.getElementById('muted');
 let isPlaying = false;
+let refreshPage = document.getElementById('reload-icon');
 
 
 const SCORE_POINTS = 100;
@@ -48,6 +49,10 @@ muteBtn.addEventListener('click', function(){
         muteBtn.src = "assets/images/speaker.png";
         isPlaying = true;
     }
+});
+
+refreshPage.addEventListener('click', function(){
+    location.reload();
 });
 
 getNewQuestion = () => {
@@ -98,10 +103,10 @@ function updateCountdown() {
     seconds = time % 60;
 
     if (time <= 0) {
-        clearInterval(countdownInterval)
+        clearInterval(countdownInterval);
         time = startingMinutes * 60;
 
-        getNewQuestion()
+        getNewQuestion();
     } else {
         seconds = seconds < 10 ? '0' + seconds : seconds;
 
@@ -126,11 +131,11 @@ choices.forEach(choice => {
             correctSoundEffect();
         } else {
             incorrectSoundEffect();
-        };
+        }
 
         selectedChoice.parentElement.classList.add(classToApply); // changes background color of button to red or blue
 
-        clearInterval(countdownInterval)
+        clearInterval(countdownInterval);
         time = startingMinutes * 60;
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply); // get's rid of colored background

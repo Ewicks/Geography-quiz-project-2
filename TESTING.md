@@ -54,9 +54,6 @@ I have found no compatibility issues using the chrome browser.
 
 ## Safari
 
-- When the user presses on the save button, the user is then directed to an error page.
-
-![Compatibility bug](doc/screenshots/compatibility-issue.png)
 
 - This the highscores page in tablet mode
 
