@@ -9,6 +9,7 @@ const countdownEl = document.getElementById('countdown');
 
 let startingMinutes = 1;
 let time = startingMinutes * 60;
+let seconds, minutes;
 
 
 
@@ -26,13 +27,14 @@ let isPlaying = false;
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
+let questionsData = JSON.parse(localStorage.getItem('questions'));
 
 
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = [...questionsData];
     getNewQuestion();
 };
 

@@ -83,3 +83,5 @@ let questions = [
     }
     
 ];
+
+localStorage.setItem('questions', JSON.stringify(questions));
