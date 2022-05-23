@@ -104,4 +104,19 @@ h3 {
     #countdown {
         font-size: 2em;
     }
+
+    #muted {
+        width: 10%;
+        min-width: 50px;
+    } 
+    
+    #home-icon {
+        font-size: 40px;
+        width: 15%;
+    }
+    
+    #reload-icon {
+        font-size: 40px;
+        width: 15%;
+    }
 }
