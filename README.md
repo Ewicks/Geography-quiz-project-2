@@ -110,44 +110,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content and Media
 
-- I used the Love Running Project to guide me through my project. [here](https://ewicks.github.io/love-running/)
+- I got the background video from a website called [Pexels](https://www.pexels.com/videos/)
 
-- I used the design idea of creating a vertical line between each navbar element from the repository [here](https://github.com/johnvenkiah/CI_MS1_John_Venkiah/blob/master/index.html)
+- I used a youtube tutorial to guide me through creating this quiz, here is the [link](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
-- I used a tutorial from youtube to create a hovering effect for the text in the life expearience section. The link to this video is [here](https://www.youtube.com/shorts/_1vEGYWaaQY)
+- The icons in the quiz are from [Font awesome](https://fontawesome.com/)
 
-- I used a youtube video to showcase the gym's facilities. Click this 
-[link](https://www.youtube.com/watch?v=vhVvMYJ9Hnc&t=103s)
-
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-- Link to the google map [click here](https://www.google.com/maps/place/PureGym+London+Piccadilly/@51.512871,-0.123031,13z/data=!4m5!3m4!1s0x0:0x17999a4de3026a30!8m2!3d51.5084911!4d-0.133374?hl=en)
-
-
-
-- The below photos are from a website called [pexels](https://www.pexels.com/search/fitness/)
-
-![weight lifter](assets/images/man-lifting-weights.png)
-![girl jogging](assets/images/girl-jogging.png)
-![girl standing](assets/images/girl-standing.png)
-![girl squating](assets/images/girl-squat.png)
-![plank](assets/images/plank.png)
-![lat pull down](assets/images/lat-pulldown.jpeg)
-![man running](assets/images/man-running.png)
-![bicep curl](assets/images/man-bicep-curl.png)
-
-- I got the below images from the [this](https://www.surreysportspark.co.uk/gym-and-classes/meet-the-teams/personal-trainers/) website.
-
-![alice](assets/images/alice-pt.jpeg)
-![james](assets/images/james-pt.jpeg)
-![dan](assets/images/dan-pt.jpeg)
-
-
-- The below picure is from [this](https://www.msnbc.com/know-your-value/these-7-habits-can-save-your-heart-n971011)
-website.
-
-![treadmill](assets/images/treadmill.jpeg)
-
-- The below picure is from [this](https://unsplash.com/s/photos/gyms) website.
-
-![bicep curl](assets/images/bicep-curl.jpeg)
+- Some of the questions in the quiz were taken from this [website](https://www.triviaquestionquiz.com/geography-trivia-questions/)
