@@ -1,3 +1,6 @@
+/* All pages css */
+
+/* Import font from google fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 * {
@@ -11,7 +14,7 @@ body {
     color: #fff;
 }
 
-/* preloader */
+/* Preloader */
 #preloader {
     position: fixed;
     top: 0;
@@ -32,6 +35,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* Background video and overlay */
 video {
     position: fixed;
     top: 0;
@@ -54,6 +58,7 @@ video {
     z-index: -1;
 }
 
+/* All pages position attributes and font sizings */
 .container {
     width: 100%;
     display: flex;
@@ -116,6 +121,7 @@ h2 {
     transform: scale(1.03);
 }
 
+/* Font awesome icons and images */
 .fa-crown {
     font-size: 1em;
     margin-left: 0.5em;
