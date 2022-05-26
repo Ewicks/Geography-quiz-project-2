@@ -27,7 +27,7 @@ To fix this I changed the overlay and video elements position's from absolute to
 
 ![White gap bug](doc/screenshots/gap-bug.png)
 
-- When the timer gets to zero its continues into the minus numbers. To fix this...
+- When the timer gets to zero its continues into the minus numbers. To fix this I reset the timer using the clear function is javascript.
 
 ![Timer bug](doc/screenshots/timer-bug.png)
 
