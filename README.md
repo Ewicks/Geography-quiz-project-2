@@ -59,6 +59,19 @@ intuitively designed to make it easy for the user to navigate.
 
 ## Wireframes
 
+### Home Page
+
+![Home Page](doc/wireframes/wireframe-homepage.png)
+
+### Game Page
+
+![Game Page](doc/wireframes/wireframe-gamepage.png)
+
+### Highscores Page
+
+![Highscores Page](doc/wireframes/wireframe-highscorespage.png)
+
+
 ### Features Left to Implement
 
 - To create another quiz with an option on the homepage to choose from a logo quiz and a written question quiz to add more creativity and fun for the user.
