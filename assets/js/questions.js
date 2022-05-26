@@ -1,5 +1,6 @@
 /* jshint esversion: 11 */
 
+// Questions bank
 let questions = [
     {
         question: 'How many total islands does Hawaii have?',

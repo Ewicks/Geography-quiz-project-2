@@ -23,7 +23,8 @@ const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 let questionsData = JSON.parse(localStorage.getItem('questions'));
 
-// start game function will grab the game questions and randomize them, then it will call the get question function
+// First function to be executed
+// The start game function will grab the game questions and shuffle them, then it will call the get question function
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -33,6 +34,7 @@ startGame = () => {
     getNewQuestion();
 };
 
+// When the sound button is clicked, it will replace the image with the appropriate mute or muted image.
 muteBtn.addEventListener('click', function(){
     if (isPlaying) {
         // pause the audio track
@@ -45,6 +47,7 @@ muteBtn.addEventListener('click', function(){
     }
 });
 
+// When this refresh image is clicked it will reload the page
 refreshPage.addEventListener('click', function(){
     window.location.reload();
 });
