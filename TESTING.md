@@ -35,19 +35,25 @@ Click here to return back to the [README.md](README.md)
 
 ### JS
 
-![Home Page](doc/screenshots/code-validator-homepage.png)
+### Preloader
+
+![Preloader](doc/screenshots/js-validation-preloader.png)
+
+### Questions js file
+
+![Questions](doc/screenshots/js-validation-questions.png)
 
 ### Game Page
 
-![Game Page](doc/screenshots/code-validator-gamepage.png)
+![Game Page](doc/screenshots/js-validation-gamepage.png)
 
 ### End Game Page
 
-![End Page](doc/screenshots/code-validator-endpage.png)
+![End Page](doc/screenshots/js-validation-endpage.png)
 
 ### Highscore Page
 
-![Highscores Page](doc/screenshots/code-validator-highscorespage.png)
+![Highscores Page](doc/screenshots/js-validation-highscorespage.png)
 
 ## Bugs
 
