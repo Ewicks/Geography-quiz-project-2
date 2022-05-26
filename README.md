@@ -48,31 +48,26 @@ intuitively designed to make it easy for the user to navigate.
 
 ![Highscores Page](doc/screenshots/highscorespage.png)
 
+
+## UX
+
+
+
+### fonts
+
+### color scheme 
+
+## Wireframes
+
 ### Features Left to Implement
 
 - To create another quiz with an option on the homepage to choose from a logo quiz and a written question quiz to add more creativity and fun for the user.
 
 
-# Testing 
+## Testing 
 
 The link to the full testing page, which includes validator testing, brower compatibility and responive check [click here](TESTING.md). 
 
-### Validator Testing
-
-You can find all the screenshots of each page being passed thorugh the code validator [here](TESTING.md).
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://ewicks.github.io/Geography-quiz-project-2/index.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fewicks.github.io%2FGeography-quiz-project-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  
-
-### Unfixed Bugs
-
-- I could not focus the image to the upper part of the image in the photo gallery.
-
-
-![women-jogging](doc/screenshots/gallery-pic-bug.png)
 
 ## Deployment
 
@@ -85,7 +80,7 @@ I used GitHub pages to deploy this website. The steps are found below.
   - Then click save.
   - The page will automatically refresh when your site is successfully deployed.
 
-The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone-Project-1/
+The live link can be found here - https://ewicks.github.io/Geography-quiz-project-2/
 
 ![Git Pages deployed site](doc/screenshots/git-pages-guide.png)
 
@@ -95,11 +90,11 @@ The live link can be found here - https://ewicks.github.io/Gym-Website-Milestone
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/Ewicks/Gym-Website-Milestone-Project-1.git`
+- `git clone https://github.com/Ewicks/Geography-quiz-project-2.git`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ewicks/Gym-Website-Milestone-Project-1)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ewicks/Geography-quiz-project-2)
 
 ## How to fork a project
 

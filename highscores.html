@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Scores</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/highscores.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="assets/images/earth-favicon.png">
 </head>
+
 <body>
+    <!-- preloader -->
+    <aside id="preloader">
+        <figure id="loader">
+            <img src="assets/images/loading.gif" alt="Loader">
+        </figure>
+    </aside>
     <div class="container">
         <video src="assets/images/background-video.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
@@ -19,7 +28,8 @@
             <a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
     </div>
-
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/highscores.js"></script>
 </body>
+
 </html>

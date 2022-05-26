@@ -9,33 +9,27 @@ const countdownEl = document.getElementById('countdown');
 
 let startingMinutes = 1;
 let time = startingMinutes * 60;
-let seconds, minutes;
-
-
-
+let seconds, minutes, countdownInterval, incorrectSound, correctSound, getAllQuestions, randomQuestions;
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-let countdownInterval;
-let incorrectSound;
-let correctSound;
 let muteBtn = document.getElementById('muted');
 let isPlaying = false;
 let refreshPage = document.getElementById('reload-icon');
-
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 let questionsData = JSON.parse(localStorage.getItem('questions'));
 
-
-
+// start game function will grab the game questions and randomize them, then it will call the get question function
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questionsData];
+    getAllQuestions = [...questionsData];
+    randomQuestions = getAllQuestions.sort(() => 0.5 - Math.random());
+    availableQuestions = randomQuestions.slice(0, MAX_QUESTIONS);
     getNewQuestion();
 };
 

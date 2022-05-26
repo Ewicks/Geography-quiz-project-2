@@ -1,29 +1,58 @@
-### W3C HTML Validator
+# Testing
 
-## Home Page
+Click here to return back to the [README.md](README.md)
+
+## Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://ewicks.github.io/Geography-quiz-project-2)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fewicks.github.io%2FGeography-quiz-project-2)
+- JS
+    - No errors were returned when passing through the official [JS hint validator](https://www.jshint.com), but there are some known warnings that do not break the game.
+  
+## W3C HTML Validator
+
+### Home Page
 
 ![Home Page](doc/screenshots/code-validator-homepage.png)
 
-## Game Page
+### Game Page
 
 ![Game Page](doc/screenshots/code-validator-gamepage.png)
 
-## End Game Page
+### End Game Page
 
 ![End Page](doc/screenshots/code-validator-endpage.png)
 
-## Highscore Page
+### Highscore Page
 
 ![Highscores Page](doc/screenshots/code-validator-highscorespage.png)
 
-## CSS Pages
+### CSS Pages
 
 ![Css](doc/screenshots/code-validator-css.png)
+
+### JS
+
+![Home Page](doc/screenshots/code-validator-homepage.png)
+
+### Game Page
+
+![Game Page](doc/screenshots/code-validator-gamepage.png)
+
+### End Game Page
+
+![End Page](doc/screenshots/code-validator-endpage.png)
+
+### Highscore Page
+
+![Highscores Page](doc/screenshots/code-validator-highscorespage.png)
 
 ## Bugs
 
 - When a user opened up the quiz with a device with a shorter height, this gap would appear moving the some elements out of frame and creating a gap below the page.
-To fix this I changed the overlay and video elements position's from absolute to fixed.
+- To fix this I changed the overlay and video elements position's from absolute to fixed.
 
 ![White gap bug](doc/screenshots/gap-bug.png)
 
@@ -38,9 +67,13 @@ To fix this I changed the overlay and video elements position's from absolute to
 ![Timer bug1](doc/screenshots/timer-bug1.png)
 ![Timer bug2](doc/screenshots/timer-bug-2.png)
 
-### Browser Compatibility
+## Unfixed Bugs
 
-## Chrome
+- There is no unfixed bugs I am aware of.
+
+## Browser Compatibility
+
+### Chrome
 
 I have found no compatibility issues using the chrome browser.
 
@@ -52,23 +85,23 @@ I have found no compatibility issues using the chrome browser.
 
 ![Game page](doc/screenshots/mobile-gamepage.png)
 
-## Safari
+### Safari
 
 
 - This the highscores page in tablet mode
 
 ![Highscores page](doc/screenshots/highscores-tablet.png)
 
-### Responsiveness
+## Responsiveness
 
-## Desktop
+### Desktop
 
 Here are two screenshots of the game page and end page in desktop mode.
 
 ![Game page](doc/screenshots/desktop-gamepage.png)
 ![End page](doc/screenshots/desktop-endpage.png)
 
-## Tablet
+### Tablet
 
 Here are two screenshots of the game page and end page in tablet mode.
 
@@ -76,7 +109,7 @@ Here are two screenshots of the game page and end page in tablet mode.
 
 ![Highscores page](doc/screenshots/highscores-tablet.png)
 
-## Mobile
+### Mobile
 
 Here are two screenshots of the game page and end page in mobile mode.
 

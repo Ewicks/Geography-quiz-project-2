@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,14 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/x-icon" href="assets/images/earth-favicon.png">
 </head>
+
 <body>
+    <!-- preloader -->
+    <aside id="preloader">
+        <figure id="loader">
+            <img src="assets/images/loading.gif" alt="Loader">
+        </figure>
+    </aside>
     <div class="container">
         <video src="assets/images/background-video.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
@@ -17,13 +25,15 @@
             <form class="end-form-container">
                 <h4 id="end-text">Enter your name below to save your score!</h4>
                 <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn" id="saveScoreBtn" type="submit" 
-                onclick="saveHighScore(event)" disabled>Save</button>
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)"
+                    disabled>Save</button>
             </form>
             <a href="game.html" class="btn">Play Again</a>
             <a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
     </div>
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/end.js"></script>
 </body>
+
 </html>
