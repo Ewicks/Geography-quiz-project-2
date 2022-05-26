@@ -51,8 +51,6 @@ intuitively designed to make it easy for the user to navigate.
 
 ## UX
 
-
-
 ### fonts
 
 ### color scheme 

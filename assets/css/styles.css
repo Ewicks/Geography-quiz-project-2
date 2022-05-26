@@ -9,10 +9,9 @@
 
 body {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* PRELOADER */
+/* preloader */
 #preloader {
     position: fixed;
     top: 0;
@@ -50,7 +49,7 @@ video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #03a9f4;
+    background: rgba(0, 0, 0, 0.5);
     mix-blend-mode: overlay;
     z-index: -1;
 }
@@ -109,12 +108,11 @@ h2 {
     background: rgba(3, 169, 244, 0.8);
     border-radius: 4px;
     color: #fff;
-    box-shadow: 0 2.5em 3.4em rgba(10, 78, 235, 0.6);
+   
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.8em 2.4em 0 rgba(8, 114, 244, 0.6);
     transform: scale(1.03);
 }
 
