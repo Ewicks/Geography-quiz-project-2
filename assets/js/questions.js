@@ -161,7 +161,48 @@ let questions = [
         choice3: 'South Dakota',
         choice4: 'Wyoming',
         answer: 4,
+    },
+    {
+        question: "Which is the tallest waterfall in the world?",
+        choice1: 'Niagra Falls',
+        choice2: 'Victoria Falls',
+        choice3: 'Angel Falls',
+        choice4: 'Iguazu Falls',
+        answer: 3,
+    },
+    {
+        question: "What is the captical city of Norway",
+        choice1: 'Oslo',
+        choice2: 'Stockholm',
+        choice3: 'Bern',
+        choice4: 'Zagreb',
+        answer: 1,
+    },
+    {
+        question: "What is the captical city of Chile",
+        choice1: 'Santo Domingo',
+        choice2: 'Stockholm',
+        choice3: 'Santiago',
+        choice4: 'Berlin',
+        answer: 3,
+    },
+    {
+        question: "What is the captical city of Norway",
+        choice1: 'Oslo',
+        choice2: 'Stockholm',
+        choice3: 'Bern',
+        choice4: 'Zagreb',
+        answer: 1,
+    },
+    {
+        question: "What is the captical city of Norway",
+        choice1: 'Oslo',
+        choice2: 'Stockholm',
+        choice3: 'Bern',
+        choice4: 'Zagreb',
+        answer: 1,
     }
+  
     
 ];
 
