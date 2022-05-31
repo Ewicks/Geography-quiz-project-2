@@ -53,7 +53,13 @@ intuitively designed to make it easy for the user to navigate.
 
 ### fonts
 
+- I have used the poppins font from google fonts, because I think this an appropriate style for a fun quiz game.
+
 ### color scheme 
+
+- I have gone for a light blue theme for the buttons to bring some light color which compliments the tropical beach theme.
+
+- The titles are in white to keep that light colored theme which goes with the beach theme.
 
 ## Wireframes
 
